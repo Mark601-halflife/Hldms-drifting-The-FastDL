@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+$translucent 1
+	$basetexture "models\crskautos\toyota\mark_ii_x90_tourerv/fary_fg"
+"$bumpmap"    "models\crskautos\toyota\mark_ii_x90_tourerv/fary_fg_n"
+	"$envmap" env_cubemap
+    "$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "4" 
+	"$phongexponent" "50"
+	"$phongfresnelranges" "[4 1 4]"
+	"$surfaceprop" "Glass"
+	"$envmapFresnel" "1"
+	"$envmaptint" "[.227 .227 .227]"
+	"$carpenisenabled" "1"
+	Proxies 
+	{
+		Equals 
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color 
+		}
+	}
+}
