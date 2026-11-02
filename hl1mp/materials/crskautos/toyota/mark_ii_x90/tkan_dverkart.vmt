@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+    "$basetexturetransform" "center .5 .5 scale 40 40 rotate 0 translate 0 0"
+    "$basetexture" "models/crskautos/shared/projectcars/common_cloth02_darkgrey_diff"
+    "$bumpmap" "models/crskautos/shared/projectcars/common_cloth02_norm"
+    "$nodecal" "1"
+    "$phong" "1" 
+    "$phongboost" ".105" 
+    "$phongfresnelranges" "[.1 .12 .45]" 
+    "$phongexponent" 1.85
+    "$detail" "models/crskautos/shared/projectcars/common_cloth02_spec"
+    "$detailscale" "40"
+    "$detailblendfactor" "0.93"
+    "$detailblendmode" "0"
+    "$colorfix" "{990 780 630}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
