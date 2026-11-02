@@ -1,0 +1,25 @@
+"unlitGeneric"
+
+{
+	$basetexture "models\crskautos\shared\common/rtcamera"
+	"$bumpmap" "models/crskautos/shared/common/kraska_km"
+	"$detail" "_RT_camera"
+	"$detailscale" "1"
+	"$detailblendfactor" "1"
+	"$detailblendmode" "5"
+	"$phong" "1" 
+"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[0.15 0.15 0.15]"
+	"$nodecal" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+

@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+
+
+"$basetexture" "models/crskautos/shared/common/chernyi_v"
+    "$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

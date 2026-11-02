@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models/crskautos/shared/common/steklo"
+	"$bumpmap"    "models/crskautos/shared/common/steklo_km"
+	"$envmap" env_cubemap
+	"$translucent" 1
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "2" 
+	"$phongexponent" "25"
+	"$phongfresnelranges" "[.74 .74 .74]"
+	"$surfaceprop" "Glass"
+	"$envmapFresnel" "1"
+	"$envmaptint" "[.244 .244 .244]"
+	"$carpenisenabled" "1"
+	Proxies 
+	{
+		Equals 
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color 
+		}
+	}
+}
+
+

@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	$basetexture "models\crskautos\shared\tires/shina_full_shtamp"
+"$bumpmap" "models\crskautos\shared\tires/shina_full_shtamp_n"
+ "$nodecal" "1"
+	"$halflambert" 1
+                "$phong" "1" 
+	"$phongboost" "3.37" 
+	"$phongfresnelranges" "[.15 .12 0.2]" 
+	"$phongexponent" 10
+                "$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+                "$rimmask" "1"
+    "$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
